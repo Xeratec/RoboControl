@@ -1,4 +1,4 @@
-# RoboControl
+<h1>RoboControl</h1>
 Robo Control ist eine App, die es ermöglicht einen Roboter drahtlos zu steuern. Die Steuerung erfolgt entweder über einen virtuellen Joystick oder mit Hilfe des Gesture Control Armband MYO von Thalmic Labs.
  
 Um Robo Control zur Robotersteuerung zu verwendet, muss das Smartphone mit dem WiFi-Netzwerk, welches z.B. von einem XBee® WiFi Modul von Digi International erzeugt wird, verbunden sein.
@@ -6,20 +6,21 @@ Bei korrekter Verbindung sendet Robo Control bis zu zehn Mal in der Sekunde Steu
 
 Um MYO für die Steuerung zu verwenden, wird Bluetooth Low Energy (BLE) benötigt. 
 
-*** Erste Schritte ***
+<h4>Erste Schritte</h4>
 
 1. WiFi verbinden
 	Verbinden Sie ihr Smartphone mit dem WiFi-Modul.
 
-	Robo Control -> WiFi Einstellungen
-	oder
+	Robo Control -> WiFi Einstellungen<br>
+	oder<br>
 	Einstellungen (Smartphone) -> WLAN
-	MYO koppeln
+	
+2. MYO koppeln
+	Koppeln Sie MYO mit ihrem Smartphone per Bluetooth LE. Rufen Sie dazu die Einstellungen des Smartphones auf.
 
-2. Koppeln Sie MYO mit ihrem Smartphone per Bluetooth LE. Rufen Sie dazu die Einstellungen des Smartphones auf.
-	Robo Control > BT Einstellungen
-	oder
-	Einstellungen (Smartphone) -> Bluetooth
+	Robo Control > BT Einstellungen<br>
+	oder<br>
+	Einstellungen (Smartphone) -> Bluetooth<br>
 	Steuerung
 
 3. Starten Sie nun Robo Control und passen Sie, wenn notwendig die Einstellungen an. Wählen Sie den gewünschten Control Modus aus.
@@ -28,8 +29,7 @@ Wenn Sie den Gesture Control Mode verwenden, wählen Sie im nächsten Dialog ihr
 
 Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die App in Eclipse zu importieren, müssen vorher die beiden Projekte in libs/Library.zip importiert werden. Danach kann RoboControl importiert werden. Evt. müssen die Bibliotheken neu zugewiesen werden.
 
-*** Links ***
+<h4>Links</h4>
 
-Dokumentation und aktuelle APK:
-
+Dokumentation und aktuelle APK:<br>
 https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0
