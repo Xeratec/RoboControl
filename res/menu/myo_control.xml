@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.robocontrol.MyoControlActivity" >
+
+    <item android:id="@+id/layout1" android:title="@string/action_scan"></item>
+
+</menu>

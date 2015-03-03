@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf8" />
+<title>Einstellungen</title>
+<style type="text/css">
+<!--
+body {
+	color: #FAFFFF;
+	margin: 15px;
+	height: 100%;
+}
+p {
+	margin:  3px 0;
+	text-align: justify
+}
+.left {
+	float: left;
+}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+img {
+	margin: 0 10px 0px 0; 
+	float: left; 
+	height: 150px;
+}
+a:link {
+	color: #A3C7FF;
+}
+a:visited {
+	color: 	#C6EAFF;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+h3 {
+	padding: 0;
+	margin: 20px 0 5px 0;
+}
+h4 {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+-->
+</style>
+</head>
+<body>	
+		<h2>Einstellungen</h2>
+		<h3 style="margin-top: 5px;">Verbindung</h3>
+			<h4>IP Adresse</h4>
+			<p>
+			Standard: 192.168.0.10
+			</p>
+			<p>
+				IP Adresse des WiFi-Modules, welches die Steuerdaten empfängt.
+			</p>
+			<h4>Port</h4>
+			<p>
+			Standard: 9750
+			</p>
+			<p>
+				Port über den die Kommunikation mit dem WiFi-Modul stattfinden soll.
+			</p>
+			<h4>WiFi Verbindungstimeout</h4>
+			<p>
+			Standard: 2000
+			</p>
+			<p>
+				Zeit in Millisekunden die für die Verbindung mit dem WiFi-Modul gewartet wird.
+			</p>
+		<h3>Achsen</h3>
+			<h4>Motor Achse invertieren</h4>
+			<p>
+			Standard: false
+			</p>
+			<p>
+				Invertieren der Motorachse.
+			</p>
+			<h4>Rad Achse invertieren</h4>
+			<p>
+			Standard: false
+			</p>
+			<p>
+				Invertieren der Radachse.
+			</p>
+			<h4>Nicht bewegen!</h4>
+			<p>
+			Standard: false
+			</p>
+			<p>
+				Lässt den Roboter auf Ort und Stelle verharren.
+			</p>
+		<h3>MYO Einstellungen</h3>
+			<h4>Achse</h4>
+			<img src="file:///android_res/drawable/roll_pitch_yaw.png" alt="Robo Control"/>
+			<p>
+			Standard (Motor): Pitch<br>
+			Standard (Rad): Roll
+			</p>
+
+			<p>
+				Die Achse, welche für die Lenkung (Rad) bzw. für die Geschwindigkeit (Motor) verwendet werden soll.
+			</p>		
+			<div class="clearfix"></div>
+			<h4>Achse Minimum Winkel</h4>
+			<p>
+			Standard (Motor): 10<br>
+			Standard (Rad): 2
+			</p>
+			<p>
+				Absolute minimale Auslenkung vom relativen Nullpunkt in Grad ab der eine Geschwindigkeit ans WiFi-Modul übertragen werden will.
+			</p>
+			<h4>Achse Maximum Winkel</h4>
+			<p>
+			Standard (Motor): 45<br>
+			Standard (Rad): 10
+			</p>
+			<p>
+				Absolute maximale Auslenkung vom relativen Nullpunkt in Grad, bei der die maximale Geschwindigkeit ans WiFi-Modul übertragen werden soll.
+			</p>
+</body>
+</html>

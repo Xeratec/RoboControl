@@ -1,0 +1,24 @@
+<resources>
+    <string name="pref_header_myo">MYO Einstellungen</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="pref_header_general">Verbindung</string>
+    <string name="pref_title_ip">IP Adresse</string> 
+    <string name="pref_title_port">Port</string> 
+    <string name="pref_title_timeout">WiFi Verbindungstimeout</string> 
+     <string name="pref_title_motorAxis">Motor Achse</string>
+    <string name="pref_summary_motorAxis">Motor Achse Einstellungen</string>
+    <string name="pref_min_motorAxis">Motor Achse Minimum Winkel</string>
+    <string name="pref_max_motorAxis">Motor Achse Maximum Winkel</string>
+    <string name="pref_title_wheelAxis">Rad Achse</string>
+    <string name="pref_summary_wheelAxis">Rad Achse Einstellungen</string>
+    <string name="pref_min_wheelAxis">Rad Achse Minimum Winkel</string>
+    <string name="pref_max_wheelAxis">Rad Achse Maximum Winkel</string>
+    <string name="reset_dialogMessage">Alle Einstellungen auf Standardwerte zurücksetzen?</string>
+    <string name="reset_negativeButtonText">Nein, behalte aktuelle Einstellungen</string>
+    <string name="reset_positiveButtonText">Ja, setze alle Einstellungen zurück</string>       
+    <string name="reset_summary">Alle Einstellungen zurücksetzen.</string>
+    <string name="reset_title">Einstellungen zurücksetzen</string>  
+    <string name="pref_invert_MotorAxis">Motor Achse invertieren</string>
+    <string name="pref_invert_WheelAxis">Rad Achse invertieren</string> 
+    <string name="pref_header_axis">Achsen</string>
+</resources>

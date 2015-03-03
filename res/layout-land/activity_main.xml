@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.example.roboboy.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageButton
+            android:id="@+id/btnMyo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/button_myocontrol"
+            android:cropToPadding="true"
+            android:onClick="myo"
+            android:padding="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/myo" />
+
+        <Button
+            android:id="@+id/btnTouch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_touchcontrol"
+            android:onClick="touch"
+            android:text="@string/button_touchcontrol"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/action_wifi"
+            android:onClick="btSettings"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bluetooth" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/ImageButton01"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/action_wifi"
+            android:onClick="wifiSettings"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wifi" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="70dp"
+            android:layout_height="250dp"
+            android:layout_above="@+id/imageButton1"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="Settings"
+            android:onClick="settings"
+            android:scaleType="center"
+            android:src="@drawable/settings" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:text="@string/app_version" />
+
+    </RelativeLayout>
+
+</FrameLayout>

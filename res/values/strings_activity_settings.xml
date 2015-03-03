@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_myo">MYO Settings</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_ip">IP Address</string> 
+    <string name="pref_default_ip">192.168.1.10</string>
+    <string name="pref_title_port">Port</string> 
+    <string name="pref_default_port">9750</string>
+    <string name="pref_title_timeout">WiFi Connection Timeout</string> 
+    <string name="pref_default_timeout">2000</string>
+    <string name="pref_title_motorAxis">Motor Axis</string>
+    <string name="pref_summary_motorAxis">Motor Axis Settings</string>
+    <string name="pref_min_motorAxis">Motor Axis Minimum Angle</string>
+    <string name="pref_max_motorAxis">Motor Axis Maximum Angle</string>
+    <string name="pref_title_wheelAxis">Wheel Axis</string>
+    <string name="pref_summary_wheelAxis">Wheel Axis Settings</string>
+    <string name="pref_min_wheelAxis">Wheel Axis Minimum Angle</string>
+    <string name="pref_max_wheelAxis">Wheel Axis Maximum Angle</string>
+    <string name="pref_default_min_motorAxis">15</string>
+    <string name="pref_default_max_motorAxis">40</string>
+	<string name="pref_default_min_wheelAxis">15</string>
+    <string name="pref_default_max_wheelAxis">40</string>
+    <string name="reset_dialogMessage">Reset all values to their defaults?</string>
+    <string name="reset_negativeButtonText">No, KEEP current values</string>
+    <string name="reset_positiveButtonText">Yes, RESET all values</string>       
+    <string name="reset_summary">Reset all settings to their initial values.</string>
+    <string name="reset_title">Reset to default</string>   
+    <string name="pref_invert_MotorAxis">Invert Motor Axis</string>
+    <string name="pref_invert_WheelAxis">Invert Wheel Axis</string>
+    <string name="pref_header_axis">Axis</string>
+    
+</resources>

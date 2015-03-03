@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.example.roboboy.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:weightSum="2" >
+
+        <ImageButton
+            android:id="@+id/btnMyo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:contentDescription="@string/button_myocontrol"
+            android:cropToPadding="true"
+            android:onClick="myo"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/myo" />
+
+        <Button
+            android:id="@+id/btnTouch"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/button_touchcontrol"
+            android:onClick="touch"
+            android:text="@string/button_touchcontrol"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center|left"
+            android:layout_toLeftOf="@+id/imageButton1"
+            android:drawableLeft="@drawable/settings"
+            android:onClick="settings"
+            android:paddingLeft="10dp"
+            android:text="@string/action_settings" />
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/action_wifi"
+            android:onClick="btSettings"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bluetooth" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/ImageButton01"
+            android:contentDescription="@string/action_wifi"
+            android:onClick="wifiSettings"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wifi" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:text="@string/app_version" />
+
+    </RelativeLayout>
+
+</FrameLayout>

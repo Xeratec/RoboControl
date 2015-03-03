@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="button_green">#24C75A</color>
+    <color name="button_red">#AE0922</color>
+    <color name="button_orange">#FF8000</color>
+    <color name="pose_active">#474747</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hub_error">Hub konnte nicht initialisiert werden!</string>
+    <string name="action_unsync">MYO nicht synchronisiert! Bitte Sync-Geste ausführen!</string>
+    <string name="action_sync">MYO ist synchronisiert!</string>
+    <string name="action_connect">MYO erfolgreich verbunden!</string>
+    <string name="action_disconnect">Verbindung zu MYO wurde getrennt!</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_wifiError">WiFi Verbindung fehlgeschlagen!</string>
+    <string name="action_wifi">WiFi Einstellungen</string>
+    <string name="action_bluetooth">BT Einstellungen</string>
+    <string name="dir_motor">Motor</string>
+    <string name="dir_wheel">Rad</string>
+    <string name="title_activity_help">Hilfe</string>
+    <string name="title_section1">Allgemein</string>
+    <string name="title_section2">Einstellungen</string>
+    <string name="title_section3">Steuerung</string>
+    <string name="title_section4">Kontakt</string>
+    <string name="action_help">Hilfe</string>
+    <string name="pref_stopMotor">Nicht bewegen!</string>
+    <string name="toast_debug_1">Noch</string>
+    <string name="toast_debug_2">Klick bis zu Aktivierung des Debug Modus!</string>
+    <string name="toast_debug_3">Klick bis zu Deaktivierung des Debug Modus!</string>
+    <string name="toast_debug_activated">Debug Modus aktiviert!</string>
+    <string name="toast_debug_deactivated">Debug Modus deaktiviert!</string>
+
+</resources>
