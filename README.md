@@ -8,14 +8,14 @@ Um MYO für die Steuerung zu verwenden, wird Bluetooth Low Energy (BLE) benötig
 
 <h4>Erste Schritte</h4>
 
-1. WiFi verbinden
+1. WiFi verbinden<br>
 	Verbinden Sie ihr Smartphone mit dem WiFi-Modul.
 
 	Robo Control -> WiFi Einstellungen<br>
 	oder<br>
 	Einstellungen (Smartphone) -> WLAN
 	
-2. MYO koppeln
+2. MYO koppeln<br>
 	Koppeln Sie MYO mit ihrem Smartphone per Bluetooth LE. Rufen Sie dazu die Einstellungen des Smartphones auf.
 
 	Robo Control > BT Einstellungen<br>
