@@ -27,7 +27,7 @@ Um MYO für die Steuerung zu verwenden, wird Bluetooth Low Energy (BLE) benötig
 	
 Wenn Sie den Gesture Control Mode verwenden, wählen Sie im nächsten Dialog ihr Armband aus.
 
-Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die App in Eclipse zu importieren, müssen vorher die beiden Projekte in libs/Library.zip importiert werden. Danach kann RoboControl importiert werden. Evt. müssen die Bibliotheken neu zugewiesen werden.
+Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die App in Eclipse zu importieren, müssen vorher die beiden Projekte aus libs/Library.zip importiert werden. Danach kann RoboControl importiert werden. Evt. müssen die Bibliotheken neu zugewiesen werden.
 
 <h4>Links</h4>
 
