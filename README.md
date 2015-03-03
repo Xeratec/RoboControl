@@ -30,4 +30,5 @@ Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die A
 
 *** Links ***
 Dokumentation und aktuelle APK:
+
 https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0
