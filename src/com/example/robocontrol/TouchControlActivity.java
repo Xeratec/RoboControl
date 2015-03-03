@@ -204,11 +204,6 @@ public class TouchControlActivity extends Activity {
 								
 								if (stopMotor) powerX=0;					
 								
-								if (!XBeeConnection.debug()){
-									powerTextView1.setText(" " + String.valueOf(powerX) + "%");
-									powerTextView.setText(" " + String.valueOf(powerY) + "%");
-								}
-								
 								if (connected){
 									xbee.sendData("ST;");
 									Thread.sleep(50);
