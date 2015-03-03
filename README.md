@@ -6,7 +6,7 @@ Bei korrekter Verbindung sendet Robo Control bis zu zehn Mal in der Sekunde Steu
 
 Um MYO für die Steuerung zu verwenden, wird Bluetooth Low Energy (BLE) benötigt. 
 
-Erste Schritte
+*** Erste Schritte ***
 
 1. WiFi verbinden
 	Verbinden Sie ihr Smartphone mit dem WiFi-Modul.
@@ -27,3 +27,7 @@ Erste Schritte
 Wenn Sie den Gesture Control Mode verwenden, wählen Sie im nächsten Dialog ihr Armband aus.
 
 Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die App in Eclipse zu importieren, müssen vorher die beiden Projekte in libs/Library.zip importiert werden. Danach kann RoboControl importiert werden. Evt. müssen die Bibliotheken neu zugewiesen werden.
+
+*** Links ***
+Dokumentation und aktuelle APK:
+https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0
