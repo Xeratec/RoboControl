@@ -25,3 +25,5 @@ Erste Schritte
 3. Starten Sie nun Robo Control und passen Sie, wenn notwendig die Einstellungen an. Wählen Sie den gewünschten Control Modus aus.
 	
 Wenn Sie den Gesture Control Mode verwenden, wählen Sie im nächsten Dialog ihr Armband aus.
+
+Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die App in Eclipse zu importieren, müssen vorher die beiden Projekte in libs/Library.zip importiert werden. Danach kann RoboControl importiert werden. Evt. müssen die Bibliotheken neu zugewiesen werden.
