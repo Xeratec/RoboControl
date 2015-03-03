@@ -151,7 +151,6 @@ public class TouchControlActivity extends Activity {
         powerTextView1 = (TextView) findViewById(R.id.powerTextView1);
         joystick1 = (JoystickView) findViewById(R.id.JoystickView1);
         
-		if (XBeeConnection.debug()){
 	        //Event listener that always returns the variation of the angle in degrees, motion power in percentage and direction of movement
 	        joystick.setOnJoystickMoveListener(new OnJoystickMoveListener() {
 	
@@ -172,7 +171,6 @@ public class TouchControlActivity extends Activity {
 	 
 	            }
 	        }, JoystickView.DEFAULT_LOOP_INTERVAL);
-		}
         
 		// Upon interacting with UI controls, delay any scheduled hide()
 		// operations to prevent the jarring behavior of controls going away
