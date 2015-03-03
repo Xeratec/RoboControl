@@ -6,6 +6,12 @@ Bei korrekter Verbindung sendet Robo Control bis zu zehn Mal in der Sekunde Steu
 
 Um MYO für die Steuerung zu verwenden, wird Bluetooth Low Energy (BLE) benötigt. 
 
+<h4>Installieren</h4>
+1. Lade die aktuelle Version aus dem Ordner APK oder dem Dropbox Ordner (siehe Links) herunter.
+2. Stelle sicher, dass du auf deinem Android-Smartphone die Option "Unbekannte Quellen zulassen" aktiviert ist
+   <p>Um direkt in die Einstellungen für unbekannte Quellen zu gelangen, drücken Sie auf das Menü-Symbol oder auf die Menü-Taste auf der Startseite Ihres Gerätes und anschließend auf Einstellungen. Wählen Sie dann Anwendungen oder Sicherheit (abhängig von Ihrem Gerät) und schließlich Unbekannte Quellen aus.</p>
+3. Installiere RoboControl
+
 <h4>Erste Schritte</h4>
 
 1. WiFi verbinden<br>
@@ -33,3 +39,6 @@ Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die A
 
 Dokumentation und aktuelle APK:<br>
 https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0
+
+<h4>Play Store</h4>
+RoboControl wird bald im Google Play Store erhältlich sein!
