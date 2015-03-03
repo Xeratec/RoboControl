@@ -29,6 +29,7 @@ Wenn Sie den Gesture Control Mode verwenden, wählen Sie im nächsten Dialog ihr
 Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die App in Eclipse zu importieren, müssen vorher die beiden Projekte in libs/Library.zip importiert werden. Danach kann RoboControl importiert werden. Evt. müssen die Bibliotheken neu zugewiesen werden.
 
 *** Links ***
+
 Dokumentation und aktuelle APK:
 
 https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0
