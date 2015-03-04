@@ -37,8 +37,12 @@ Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die A
 
 <h4>Links</h4>
 
-Dokumentation und aktuelle APK:<br>
-https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0
+<b>Dokumentation und aktuelle APK:</b>
+https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0<br />
+<b>Arduino Roboter Sourcecode:</b> https://github.com/Xeratec/Roboter
+<br />
+<b>RoboControl in Action:<br />
+[![RoboControl in Action](http://img.youtube.com/vi/zipDowhP6f8/0.jpg)](http://www.youtube.com/watch?v=zipDowhP6f8)
 
 <h4>Play Store</h4>
 RoboControl wird bald im Google Play Store erhältlich sein!
