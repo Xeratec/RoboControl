@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf8" />
+<title>Allgemein</title>
+<style type="text/css">
+<!--
+body {
+	color: #FAFFFF;
+	margin: 15px;
+	height: 100%;
+}
+p {
+	margin: 0 0 10px 0;
+	text-align: justify
+}
+img {
+	margin: 0 10px 0px 0; 
+	float: left; 
+	height: 3.5em;
+}
+#launcher {
+	height: 4.5em !important;
+}
+a:link {
+	color: #A3C7FF;
+}
+a:visited {
+	color: 	#C6EAFF;
+}
+a {
+	text-decoration: none;
+}
+h2 {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+h3 {
+	padding: 0;
+	margin: 20px 0 5px 0;
+}
+h4 {
+	padding: 0;
+	margin: 10px 0 0 0;
+}
+ul {
+	list-style-type: decimal;
+	padding-left: 1em;
+}
+-->
+</style>
+</head>
+	<body>	
+		<h2>Robo Control</h2>
+		<p>
+			<img id="launcher" src="file:///android_res/drawable/launcher.png" alt="Robo Contro"/>
+			Robo Control ist eine App, zur drahtlosen Steuerung eines Roboters.
+			Die Steuerung erfolgt entweder über einen virtuellen Joystick oder mit Hilfe des <a href="https://www.thalmic.com/en/myo/"><i>Gesture Control Armband MYO</i> von Thalmic Labs.</a>
+		</p>
+		<p>
+			Um Robo Control zur Robotersteuerung zu verwenden, muss das Smartphone mit dem WiFi-Netzwerk, welches z.B. von einem <a href="http://www.digi.com/products/wireless-wired-embedded-solutions/zigbee-rf-modules/point-multipoint-rfmodules/xbee-WiFi">
+			<i>XBee&reg; WiFi</i> Modul von Digi International</a> erzeugt wird, verbunden sein. 
+			<br/>Bei korrekter Verbindung sendet Robo Control bis zu zehn Mal in der Sekunde Steuerdaten an das WiFi Modul, welche von einem Mikrocontroller ausgewertet und weiterverarbeitet werden können.
+		</p>
+		<p>
+			Um MYO für die Steuerung zu verwenden, wird Bluetooth Low Energy (BLE) benötigt. 
+			<br/>Weitere Details bitte unter <i>Steuerung</i> nachlesen.
+		</p>
+		<h3>Erste Schritte</h3>
+		<ul>
+			<li>
+				<h4>WiFi verbinden</h4>
+				<p>
+				Verbinden Sie ihr Smartphone mit dem WiFi-Modul.
+				</p>
+				<p><i>Robo Control -> WiFi Einstellungen</i> <br />oder<br /> <i>Einstellungen (Smartphone) -> WLAN</i>
+				</p>
+			</li>
+			<li>
+				<h4>MYO koppeln</h4>
+				<p>
+					Koppeln Sie MYO mit ihrem Smartphone per Bluetooth LE.
+				</p>
+				<p><i>Robo Control > BT Einstellungen</i> <br />oder<br /> <i>Einstellungen (Smartphone) -> Bluetooth</i>
+			</li>
+			<li>
+				<h4>Steuerung</h4>
+				<p>
+				Starten Sie nun Robo Control und passen Sie, wenn notwendig, die Einstellungen an. Wählen Sie den gewünschten Control Modus aus.</p>
+				<p>Wenn Sie den <i>Gesture Control Mode</i> verwenden, wählen Sie im nächsten Dialog ihr Armband aus.
+			</li>
+		</ul>
+</body>
+</html>

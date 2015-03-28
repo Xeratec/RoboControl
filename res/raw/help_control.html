@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf8" />
-<title>Steuerung</title>
+<title>Controls</title>
 <style type="text/css">
 <!--
 body {
@@ -61,44 +61,44 @@ tr {
 </style>
 </head>
 <body>	
-		<h2>Steuerung</h2>
+		<h2>Controls</h2>
 		<h3 style="margin-top: 5px;">Gesture Control Mode</h3>
 		<p>
-			Um die MYO Steuerung zu aktivieren, muss die <a href="https://support.getmyo.com/hc/en-us/articles/200755509-How-to-perform-the-sync-gesture">Synchronisationsgeste</a> ausgeführt werden.
-			Damit MYO auf zukünftige Eingaben reagiert, muss die Geste <a href="https://support.getmyo.com/hc/en-us/articles/202647873-The-Myo-armband-and-accidental-input-"><i>Double Tap</i></a> ausgeführt werden. 
-			Der Farbe des Punktes in der Mitte der App wechselt nun von rot auf gelb. 
+			To activate the MYO-control, a <a href="https://support.getmyo.com/hc/en-us/articles/200755509-How-to-perform-the-sync-gesture">synchronization gesture</a> has to executed.
+			For MYO to react to any future inputs, the gesture <a href="https://support.getmyo.com/hc/en-us/articles/202647873-The-Myo-armband-and-accidental-input-"><i>Double Tap</i></a> has to be executed.
+			The color of the circle in the middle of the App should now change from red to yellow. 
 		</p><p>
-			Um nun die Kontrolle ganz zu übernehmen, muss entweder die Geste <i>Fist</i> ausgeführt und somit die Hand zu einer Faust geballt werden oder es wird die Geste <i>Finger Spread</i> ausgeführt. Bei erfolgreicher Aktivierung wechselt die Farbe des Punktes von gelb auf grün.
+			To completely assume control, either of the two gestures <i>Fist</i> or <i>Finger Spread</i> has to be executed.
+			If the activation is successful, the color of the circle will change from yellow to green.
 		</p><p>
-			Damit die Kontrolle über den Roboter wieder abgegeben wird, kann entweder auf den Stop Button in der App geklickt werden oder es wird die Geste <i>Wave In</i> ausgeführt, indem das Handgelenk nach innen gekippt wird. Die Farbe des Punktes wechselt von grün auf rot.
+			To release control over the robot, either press the "Stop" button in the App, or execute the gesture <i>Wave In</i> (in which the wrist is tilted inwards). The color of the circle will change from green to red.
 		</p>
 		<p style="margin-top: 10px;">
-		<b style="color:red;">WICHTIG!</b></br>
-			Die Gestenerkennung funktioniert noch nicht zu 100 Prozent. Es kann vorkommen, dass falsche oder gar keine Gesten erkannt werden. </br>
-			Falls dies der Fall ist, kann es hilfreich sein, das Armband kurz
-			abzuziehen und erneut anzulegen. Als Folge dessen muss die <a href="https://support.getmyo.com/hc/en-us/articles/200755509-How-to-perform-the-sync-gesture">Synchronisationsgeste</a> erneut ausgeführt werden.
+		<b style="color:red;">IMPORTANT!</b></br>
+			The gesture recognition isn't completely accurate yet. Gestures may be misinterpreted or not recognized at all. </br>
+			If that's the case, it might help to take the bracelet off for a few seconds. After putting it back on, the <a href="https://support.getmyo.com/hc/en-us/articles/200755509-How-to-perform-the-sync-gesture">synchronization gesture</a> has to be executed again.
 		</p>
 		<h3>Touch Control Mode</h3>
 		<p>
-			Die Touch Steuerung ist sehr einfach aufgebaut. Der linke Joystick kontrolliert die Geschwindigkeit, der rechte die Fahrtrichtung des Roboters.
+			Touch control is very simple. The left joystick controls the speed, the right one controls the direction of the robot.
 		</p>		
-		<h3>Kommunikation</h3>
+		<h3>Communication</h3>
 		<p>
-			Das Smartphone sendet bis zu zehn Mal in der Sekunde Steuerdaten an den Roboter.
+			The Smartphone sends relevant data to the robot up to ten times each second.
 		<p>
-			Die Steuerdaten sind folgendermassen aufgebaut:
+			The control-data is structured as follows:
 			<table>
 				<tr>
-					<th>Befehl</th>
-					<th>Bedeutung</th>
+					<th>Command</th>
+					<th>Meaning</th>
 				</tr>
 				<tr>
 					<td><b>ST;</b></td>
-					<td><p>Statussignal</p></td>
+					<td><p>status signal</p></td>
 				</tr>
 				<tr>
-					<td><b>&lt;L-Wert&gt;:&lt;M-Wert&gt;;</b></td>
-					<td><p>Richtungs-Wert und Motor-Wert haben Werte zwischen -100 und 100, wobei der Wert 0 ein geradeaus Fahren bzw. Stillstehen bedeutet.</p></td>
+					<td><b>&lt;L-Value&gt;:&lt;M-Value&gt;;</b></td>
+					<td><p>Direction-Value and Motor-Value are between -100 and 100, the value 0 standing for "driving straight" or "standing still".</p></td>
 				</tr>
 			</table>
 		</p>
