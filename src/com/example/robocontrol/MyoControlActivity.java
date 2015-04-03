@@ -337,16 +337,27 @@ public class MyoControlActivity extends Activity {
             if (perRoll<-180){
             	perRoll+=360;
             }
+            if (perRoll>180){
+            	perRoll-=360;
+            }
             
             perPitch = Math.round(pitch)-relPitch;
             if (perPitch<-90){
             	perPitch += 180;
             }
+            if (perPitch>90){
+            	perPitch -= 180;
+            }
+     
      
             perYaw = Math.round(yaw)-relYaw;
             if (perYaw<-180){
             	perYaw += 360;
             }
+            if (perYaw>180){
+            	perYaw -= 360;
+            }
+     
      
 
 			textRoll.setText(Integer.toString(perRoll));
