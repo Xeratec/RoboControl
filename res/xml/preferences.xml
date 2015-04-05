@@ -135,7 +135,7 @@
              
      </PreferenceCategory>
      <PreferenceCategory>
-     <com.example.robocontrol.settings.ResetDefDiagPref  
+     <com.xeratec.robocontrol.settings.ResetDefDiagPref  
         android:dialogMessage="@string/reset_dialogMessage"  
         android:key="resetDialog"  
         android:negativeButtonText="@string/reset_negativeButtonText"  
@@ -143,6 +143,6 @@
         android:positiveButtonText="@string/reset_positiveButtonText"  
         android:summary="@string/reset_summary"  
         android:title="@string/reset_title" >  
-    </com.example.robocontrol.settings.ResetDefDiagPref> 
+    </com.xeratec.robocontrol.settings.ResetDefDiagPref> 
     </PreferenceCategory>
 </PreferenceScreen>

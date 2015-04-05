@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.robocontrol"
+    package="com.xeratec.robocontrol"
     android:versionCode="6"
     android:versionName="@string/app_version" >
 
@@ -18,7 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name="com.xeratec.MainActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name" >
             <intent-filter>
@@ -28,43 +28,44 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MyoControlActivity"
+            android:name="com.xeratec.MyoControlActivityrolActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_myo_control"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.xeratec.MainActivity"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.robocontrol.MainActivity" />
+                android:value="com.xeratec.robocontrol.MainActivity" />
         </activity>
         <activity
-            android:name=".TouchControlActivity"
+   			android:name="com.xeratec.TouchControlActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:label="@string/title_activity_touch_control"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.xeratec.MainActivity"
             android:screenOrientation="landscape"
             android:theme="@style/FullscreenTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.robocontrol.MainActivity" />
+                android:value="com.xeratec.robocontrol.MainActivity" />
         </activity>
         <activity
             android:name="com.thalmic.myo.scanner.ScanActivity"
             android:label="@string/myosdk__title_activity_scan"
             android:theme="@style/myosdk__ScanActivityTheme" 
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName="com.xeratec.MainActivity"
+        />
         <activity
             android:name=".settings.SettingsActivity"
             android:label="@string/title_activity_settings"
-            android:parentActivityName=".MainActivity" >
-        </activity>
+            android:parentActivityName="com.xeratec.MainActivity"
+        />
         <activity
-            android:name=".HelpActivity"
+            android:name="com.xeratec.HelpActivity"
             android:label="@string/title_activity_help"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName="com.xeratec.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.robocontrol.MainActivity" />
+                android:value="com.xeratec.robocontrol.MainActivity" />
         </activity>
     </application>
 
