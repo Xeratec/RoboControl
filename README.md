@@ -44,4 +44,5 @@ https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0<br />
 [![RoboControl in Action](http://img.youtube.com/vi/zipDowhP6f8/0.jpg)](http://www.youtube.com/watch?v=zipDowhP6f8)
 
 <h4>Play Store</h4>
-RoboControl will soon be available in the Google Play Store!
+RoboControl is available in the Google Play Store!
+[RoboControl - Google Play](https://play.google.com/store/apps/details?id=com.xeratec.robocontrol)
