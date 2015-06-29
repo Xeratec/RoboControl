@@ -38,7 +38,7 @@ Die App wurde mit Eclipse und dem (veralteten) ADT Plugin programmiert. Um die A
 <h4>Links</h4>
 
 <b>Dokumentation und aktuelle APK:</b>
-https://www.dropbox.com/sh/i1nmo0bkuqmkcbq/AAC0enZ3Gk6ZGahlJnLbtBg_a?dl=0<br />
+https://www.dropbox.com/sh/ppu5hy1env0s045/AACys7iwfQ-mSuf-PQVkKQX1a?dl=0<br />
 <b>Arduino Roboter Sourcecode:</b> https://github.com/Xeratec/Roboter
 <br />
 <b>RoboControl in Action:<br />
